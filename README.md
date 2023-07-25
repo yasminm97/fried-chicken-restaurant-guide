@@ -2,7 +2,7 @@
 
 Dear students,
 
-Use your React Js Skills to buid an app that can find the best Fried Chicken Resturant in Baghdad
+Use your React Js Skills to build an app that can find the best Fried Chicken Resturant in Baghdad
 
 ## Task Instructions
 
