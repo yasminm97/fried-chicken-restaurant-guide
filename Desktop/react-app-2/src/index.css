@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    background-color: #F8F8F8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.todo{
+  background-color: rgba(204, 228, 248, 0.8);
+  width: 50%;
+  margin: auto;
+  height: 75vh;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 1px 1px #ccccccda;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.todo h2{
+  padding-top:5vh;
+}
+.todo form{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+.todo input ,button{
+  margin-top: 5px;
+  padding: 8px;
+  border: none;
+  color: #404040;
+  border-radius: 2px;
+  font-size: 12pt;
+}
+.todo ul{
+  font-size: 12pt;
+  list-style: none;
+  width: 90%;
+  padding: 10px;
+  margin: auto;
+}
+.todo li:nth-child(odd){
+  background-color: #edeeee;
+}
+.todo li:nth-child(even){
+  background-color: #eef7ff;
+}
+.todo li:hover{
+  background-color: #dce2fe8e;
+  cursor: pointer;
+}
+
+.todo button{
+  background-color: rgba(2, 238, 159, 0.713);
+}
+.todo button:hover{
+  background-color: #fff;
+  border:1px solid rgba(2, 238, 159, 0.713);
+}
+.todo .delete{
+  background-color:transparent;
+  padding-left: 10px;
+  color: red;
+}
+.todo .delete:hover{
+  background-color: transparent;
+  border: none;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
