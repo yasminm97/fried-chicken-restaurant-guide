@@ -1,0 +1,23 @@
+
+.main {
+  background-color: purple;
+  color: pink;
+  width: 50vw;
+  height: auto;
+  margin: auto;
+  margin-top: 10vh;
+  padding: 20px;border-radius: 8px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+  background-color: pink;
+  color: darkmagenta;
+  font-size: larger;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
