@@ -1,7 +1,10 @@
 import './App.css';
+import Menu from './components/Menu';
 
 function App() {
-  return <>Fried Chicken Guide Web App</>;
+  return <>
+  <Menu />
+  </>;
 }
 
 export default App;
