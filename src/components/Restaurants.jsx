@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import Rating from './Rating';
+import Description from './Description';
 
 const Restaurant = () => {
     const [name, setName] = useState("");
