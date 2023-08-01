@@ -1,10 +1,10 @@
 import './App.css';
-import Menu from './components/Menu';
+import Restaurants from './components/Restaurants';
 
 function App() {
-  return <>
-  <Menu />
-  </>;
+  return (
+    < Restaurants />
+  )
 }
 
 export default App;

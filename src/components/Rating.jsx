@@ -17,7 +17,6 @@ const Rating = ({ rating }) => {
       {[...Array(emptyStars)].map((index) => (
         <FontAwesomeIcon key={`empty-${generateUniqueId()}`} icon={faStar} className="empty-star" />
       ))}
-      <span>({rating})</span>
     </div>
   );
 }
